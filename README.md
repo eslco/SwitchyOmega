@@ -1,12 +1,12 @@
-# SwitchyOmega-Whitelist
-适用于 SwitchyOmega 的中国网站白名单，主要内容来自 [felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)，纯列表，自动更新。
+# SwitchyOmega list
+适用于 SwitchyOmega 的中国网站白名单Whitelist，主要内容来自 [felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)，纯列表，自动更新。
 
 ## 使用步骤
 1. 在 Chrome/Edge 中安装 [SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif) 插件；
-2. 在插件的设置中，点击「新增情景模式」-「代理服务器」，名字自己设置；
+2. 在插件的设置中，点击「新增情景模式」-「ProxyServer」，名字自己设置；
 3. 点击「新增情景模式」-「自动切换」，名字自己设置；
 4. 规则列表设置为直连；
-5. 默认情景模式设置为刚才设置的代理服务器；
+5. 默认情景模式设置为刚才设置的「ProxyServer」；
 6. 点击「添加规则列表」，在规则列表网址，输入
     ```
     https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/master/white-list.sorl
