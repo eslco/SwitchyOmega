@@ -1,0 +1,54 @@
+[SwitchyOmega Conditions]
+; Require: SwitchyOmega >= 2.3.2
+; Date: 9/27/2024
+; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
+
+*.hdslb.com
+HostRegex: ^.*\.abs\.hls\.ttvnw\.net$
+HostRegex: ^.*\.hls\.ttvnw\.net$
+*.abs.hls.ttvnw.net
+Keyword: hls.ttvnw.net/v1/
+*.bilivideo.com
+playlist.ttvnw.net
+static-cdn.jtvnw.net
+*.jtvnw.net
+global.poe.live-video.net
+*.twitchcdn.net
+HostWildcard: ff00::
+*.ext-twitch.tv
+gql.twitch.tv
+*.twitch.tv
+*.gstatic.com
+*.fonts.googleapis.com
+*.google.com
+*.l53.net
+*.alicdn.com
+*.alipcsec.com
+*.forgecdn.net
+*.lowendtalk.com
+*.d3aqoihi2n8ty8.cloudfront.net
+*.googletagmanager.com
+*.happyapi.org
+*.hcaptcha.com
+*.linux.do
+*.ip-api.com
+*.ipip.net
+*.pissmail.com
+*.google.cn
+*.youtube.com
+*.pstmrk.it
+*.ciciaicdn.com
+*.ciciai.com
+*.google-analytics.com
+x.com
+*.facebook.com
+*.yahoo.com
+*.netflix.com
+*.spotify.com
+*.tiktok.com
+*.infini-cloud.net
+*.browserleaks.com
+*.ecosia.org
+*.cloudflareinsights.com
+*.ytimg.com
+*.doubleclick.com
