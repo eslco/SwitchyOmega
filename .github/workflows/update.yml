@@ -9,7 +9,7 @@ on:
     
 jobs:
   bot:
-    runs-on: System-latest
+    runs-on: self-hosted # runs-on: System-latest
     steps:
       - name: 'Checkout System'
         uses: actions/checkout@v1
