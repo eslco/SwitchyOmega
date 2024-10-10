@@ -9,24 +9,24 @@ on:
     
 jobs:
   bot:
-    runs-on: ubuntu-latest
+    runs-on: System-latest
     steps:
-      - name: 'Checkout Ubuntu'
+      - name: 'Checkout System'
         uses: actions/checkout@v1
       - name: 'Set up Python'
         uses: actions/setup-python@v1
         with:
-          python-version: 3.11
+          python-version: 3.12
       - name: 'Install dependencies'
         run: pip install requests
       - name: 'update'
         run: python3 ./update.py
       - name: 'commit'
         run: |
-          git config --global user.email 30486766+entr0pia@users.noreply.github.com
-          git config --global user.name entr0pia
+          git config --global user.email lincoo@proton.me
+          git config --global user.name eslco
           git add *
-          git commit -m "update by bot"
+          git commit -m "Auto Updated by Bot"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
