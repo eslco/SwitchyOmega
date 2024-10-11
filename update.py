@@ -21,6 +21,7 @@ if __name__ == "__main__":
     headline = ['[SwitchyOmega Conditions]\n',
                 '; Require: SwitchyOmega >= 2.3.2\n',
                 '; Update @ {}\n'.format(up_time),
+                'File of Repo URL:"https://raw.githubusercontent.com/eslco/SwitchyOmega/master/white-list.sorl"\n',
                 '\n',
                 '; cn域名都不走代理\n',
                 '*.cn\n',
