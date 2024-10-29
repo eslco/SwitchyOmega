@@ -1,11 +1,11 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Update @ Sun Oct 27 13:45:32 2024
-
-; cn域名都不走代理
+; Update @ Tue Oct 29 10:30:29 2024
+; Github Repo URL: https://raw.githubusercontent.com/eslco/SwitchyOmega/master/white-list.sorl
+; .cn域名直連
 *.cn
 
-; 局域网IP不走代理
+; LAN局域网IP直連
 10.*.*.*
 172.16.*.*
 172.17.*.*
@@ -26,7 +26,7 @@
 169.254.*.*
 192.168.*.*
 
-; 教育网
+; edu教育网
 *.acm.org
 *.dblp.org
 *.ebscohost.com
