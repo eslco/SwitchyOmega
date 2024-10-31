@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: 'Auto Update Bot'
+name: 'Auto Update Bot v3'
  
 on:
   workflow_dispatch:
@@ -28,7 +28,7 @@ jobs:
           git config --global user.email 59771891+eslco@users.noreply.github.com
           git config --global user.name eslco
           git add *
-          git commit -m "Auto Updated by Bot"
+          git commit -m "Auto Updated by Github Bot"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
