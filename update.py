@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 '''
-@作者: 风沐白
-@文件: update.py
-@描述: 从网络来源更新白名单规则
+@作者 Author: enth0pia风沐白
+@文件 File Name: update.py
+@描述 Desc: Update the Whitelist rules from Internet
 '''
 
 import requests
@@ -10,7 +10,7 @@ import re
 import os
 import time
 
-# 默认来源 git@github.com:felixonmars/dnsmasq-china-list.git, 可能需要代理
+# 默认来源 git@github.com:felixonmars/dnsmasq-china-list.git,  Proxy Set Required maybe
 confurl = 'https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf'
 
 if __name__ == "__main__":
@@ -24,6 +24,11 @@ if __name__ == "__main__":
                 ';Github Repo Output File URL: https://raw.githubusercontent.com/eslco/SwitchyOmega/master/white-list.sorl\n',
                 '; cn域名直連\n',
                 '*.cn\n',
+                '\n',
+                '; 本地域名直連\n',
+                '<local>\n',
+                'fc00::/7\n',
+                'fe80::/10\n',
                 '\n',
                 '; Local局域网IP 直連\n',
                 '10.*.*.*\n',
