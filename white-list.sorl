@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Update @ Thu Oct 31 22:09:10 2024
+; Update @ Fri Nov  1 22:09:01 2024
 ; Github Repo Output File URL: https://raw.githubusercontent.com/eslco/SwitchyOmega/master/white-list.sorl
 ; cn域名直連
 *.cn
