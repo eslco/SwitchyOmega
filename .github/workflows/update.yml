@@ -26,7 +26,7 @@ jobs:
           git config --global user.email 59771891+eslco@users.noreply.github.com
           git config --global user.name eslco
           git add *
-          git commit -m "Auto Committed by Bot, executed every 2 days at 22:00pm GMT"
+          git commit -m "Auto Committed by Bot, Per 2 days at 22:00pm GMT"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
