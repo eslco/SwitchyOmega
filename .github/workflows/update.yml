@@ -28,6 +28,6 @@ jobs:
           git add *
           git commit -m "Auto Committed by Bot, Per 2 days at 22:00pm GMT"
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@feat
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
