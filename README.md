@@ -9,7 +9,7 @@
 5. 默认情景模式设置为刚才设置的代理服务器；
 6. 点击「添加规则列表」，在规则列表网址，输入
     ```
-    https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/master/white-list.sorl
+    https://raw.githubusercontent.com/eslco/SwitchyOmega/master/white-list.sorl
     ```
     > 代理加速 (一个一个试):
     > 1. https://ghproxy.com/https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/master/white-list.sorl
